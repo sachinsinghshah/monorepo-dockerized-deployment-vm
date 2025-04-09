@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "deployonvm",
   "private": true,
   "scripts": {
     "build": "turbo run build",
