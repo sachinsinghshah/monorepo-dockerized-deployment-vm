@@ -23,6 +23,6 @@ jobs:
           context: .
           file: ./docker/Dockerfile.ws
           build-args:
-            - DATABASE_URL=${{ secrets.DATABASE_URL }}
+            DATABASE_URL: ${{ secrets.DATABASE_URL }}
           push: true
           tags: sachinsinghshah/todo-websocket:${{github.sha}}
