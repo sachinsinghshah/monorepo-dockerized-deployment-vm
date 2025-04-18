@@ -23,4 +23,4 @@ jobs:
             context: .
             file: ./docker/dockerfile.backend
             push: true
-            tags: sachinsinghshah/monorepo-dockerized-deployment-vm:${{github.sha}}
+            tags: sachinsinghshah/todo-backend:${{github.sha}}
